@@ -1,0 +1,6 @@
+while ($true) {
+$computers = Read-host "nome do seu computador, o mesmo criado no ad"
+
+Get-WmiObject Win32_ComputerSystem -ComputerName $computers 
+
+  }     
